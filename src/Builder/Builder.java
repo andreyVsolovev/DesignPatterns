@@ -3,7 +3,7 @@ package Builder;
 /**
  * Created by Andrey on 14.12.2016.
  */
-public class App {
+class App {
     public static void main(String[] args) {
         PersonCreator pc = new PersonCreator();
         Person p1 = pc.createPerson("Вася", 10);
